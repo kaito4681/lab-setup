@@ -22,14 +22,13 @@ sudo apt install openssh-server
 
 <!-- ## remote desktop(optional)
 
-設定アプリ > system > remote desktop > remote login をオンにする  
+設定アプリ > system > remote desktop > remote login をオンにする
 繋いでみて，Error code 0x207 なら，export して rdp ファイルを以下のように修正
 
 ```diff
 - use redirection server name:i:0
 + use redirection server name:i:1
 ``` -->
-
 
 ## uv
 
@@ -41,4 +40,11 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ```sh
 uv tool install ruff ty
+```
+
+nvidia-driever
+
+```bash
+sudo ubuntu-drivers autoinstall
+
 ```
