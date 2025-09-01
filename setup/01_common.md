@@ -1,3 +1,5 @@
+# common setup
+
 ## 大学 proxy
 
 ```sh
@@ -30,7 +32,9 @@ sudo apt install openssh-server
 + use redirection server name:i:1
 ``` -->
 
-## uv
+
+
+<!-- ## uv
 
 [https://docs.astral.sh/uv/#highlights](https://docs.astral.sh/uv/#highlights)
 
@@ -40,11 +44,12 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ```sh
 uv tool install ruff ty
-```
+``` -->
 
 nvidia-driever
 
 ```bash
 sudo ubuntu-drivers autoinstall
-
 ```
+
+
